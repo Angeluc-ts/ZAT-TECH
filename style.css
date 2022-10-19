@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+}
+
+.logo{
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    color: brown;
+}
+
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: rgb(22, 22, 170);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: #4e0a10;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+header a:click{
+    text-decoration: underline;
+    color: black;
+}
+
+#membre{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#membre ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+
+#membre ul li{
+    height: 400px;
+    width: 200px;
+    margin: auto;
+    margin-left: 5px;
+    
+}
+
+#membre ul li a{
+    color: rgb(63, 62, 62);
+    font-size: 20px;
+    
+}
+
+#membre ul li img:hover{
+    width: 80%;
+    height: 60%;
+    
+}
+
+#membre ul li img{
+    width: 200px;
+    height: 320px;
+    border-radius: 5px;
+}
+
+#membre h1{
+    color: #1c1b1c;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.para{
+    padding-top: 15%;
+}
+
+.para h1{
+    font-size: xx-large;
+}
+
+.ord{
+    padding-top: 20px;
+    display: flex;
+    
+}
+
+.ord img{
+    width: 70%;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.ord p{
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+button{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(63, 10, 10);
+    color: azure;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: rgb(63, 62, 62);
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 45px;
+}
+
+.contact h1{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.contact ul li{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.contact ul li a{
+    text-transform: none;
+    color: blanchedalmond;
+}
+
+.contact ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #1c1b1c;
+    height: 150px;
+    color: white;
+}
+
+/* responsive */
+@media all and (max-width: 1024px) {
+    #membre ul{
+        display: block;
+    }
+
+    #membre ul li{
+        margin: auto;
+        display: flex;
+    }
+
+    .ord{
+        display: block;
+    }
+
+    .ord h1{
+        text-align: right;
+    }
+
+    .para{
+        padding: 0;
+        margin: 0;
+    }
+}
